@@ -1,0 +1,10 @@
+idf_component_register(
+    SRCS
+        "XPowersLibInterface.cpp"
+    INCLUDE_DIRS
+        "."
+        "REG"
+    REQUIRES
+        driver
+        log
+)

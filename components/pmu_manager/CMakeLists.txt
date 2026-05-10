@@ -1,0 +1,11 @@
+idf_component_register(
+    SRCS
+        "pmu_manager.cpp"
+    INCLUDE_DIRS
+        "include"
+    REQUIRES
+        XPowersLib
+        driver
+        esp_driver_gpio
+        log
+)
